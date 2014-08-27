@@ -1,0 +1,32 @@
+.inputbox{
+    padding: 10px;
+  border: solid 1px #fff;
+  box-shadow: inset 1px 1px 2px 0 #707070;
+  transition: box-shadow 0.3s;
+    margin: 5px;
+    width: 100px
+}
+
+.expInput{
+    width: 35%;
+    margin-left: 70px;
+}
+
+.expContainer{
+    background: rgb(230, 230, 230);
+    padding: 30px;
+}
+
+.expContainer:nth-child(even){
+    background: rgb(214, 214, 214);
+}
+
+.infoTextLabel{
+    padding: 5px;
+    font-family: verdana;
+}
+
+.heading{
+    font-family: fantasy;
+    text-align: center;
+}
