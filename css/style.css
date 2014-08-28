@@ -4,7 +4,9 @@
   box-shadow: inset 1px 1px 2px 0 #707070;
   transition: box-shadow 0.3s;
     margin: 5px;
-    width: 100px
+    width: 100px;
+    height: 30px;
+border-radius: 5px;
 }
 
 .expInput{
@@ -27,6 +29,10 @@
 }
 
 .heading{
-    font-family: fantasy;
+    font-family: monospace;
     text-align: center;
+    text-shadow: 2px 2px rgb(126, 127, 131);
+    color: rgb(255, 255, 255);
+    background: black;
+    border: gray;
 }

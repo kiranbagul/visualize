@@ -90,7 +90,7 @@ $(function () {
         $('#'+id).highcharts({
             credits: false,
             chart: {
-                type: 'area'
+                type: 'line'
             },
             title: {
                 text: 'Expression data series'
@@ -117,7 +117,7 @@ $(function () {
                 }
             },
             tooltip: {
-                pointFormat: '{series.name} produced <b>{point.y:,.0f}</b><br/> {point.x}'
+                pointFormat: '{series.name} produced <b>{point.y:,.0f}</b><br/> at {point.x}'
             },
             plotOptions: {
                 area: {
