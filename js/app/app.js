@@ -141,7 +141,12 @@ $(function () {
     var app = new App();
     var expView = new ExpressionInputView();
     $('#addExp').click(function(){
-        $('#expressions').append(expView.addInput(2));
+        var val = prompt("How many variables your expression has : ", "2");
+        if(isNaN(val)){
+            alert("Invalid input, reenter the same.")
+        }else{
+            $('#expressions').append(expView.addInput(val));
+        }
     });
     $('#plot').click(function(){
         app.reset();
